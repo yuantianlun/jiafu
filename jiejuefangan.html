@@ -12,12 +12,16 @@
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/kuangjia.css">
     <link rel="stylesheet" href="css/c.css">
+    <link rel="stylesheet" href="css/leftnav.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/video.min.js"></script>
     <script src="js/videojs-ie8.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/headlibs.js"></script>
+    <script src="js/leftnav.js"></script>
 </head>
 <body style="background: #e0f7ff;">
 <!--头部开始-->
@@ -392,339 +396,191 @@
 </div>
 
 <!---->
-<div class="page-wrapper">
+<div class="page-wrapper container-fluid">
 
+    <div class="row">
+        <div class="shaixuan_box">
+            <div class="col-lg-3">
+                <div class="account-l fl">
+                <a class="list-title">产品中心</a>
+                <ul id="accordion" class="accordion">
+                    <li>
+                        <div class="link">智能制造<i class="fa fa-chevron-down"></i></div>
+                        <ul class="submenu">
+                            <li id="shop">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="publicproducts">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="productlists">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="mysaled">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="link">标准设备<i class="fa fa-chevron-down"></i></div>
+                        <ul class="submenu">
+                            <li id="publishpurchase">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="postneeds">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="getneeds">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="mypricesheet">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="concernshop">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="concerngood">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="link">自动化核心模块<i class="fa fa-chevron-down"></i></div>
+                        <ul class="submenu">
+                            <li id="buyerxunpanlist">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="publishrequire">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="link">相关耗材<i class="fa fa-chevron-down"></i></div>
+                        <ul class="submenu">
+                            <li id="myorder">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                            <li id="myrefund">
+                                <input type="checkbox"  class="checkbox-custom">
+                                <span>查看店铺</span>
+                                <div style="float: right">9</div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
 
-    <section class="container-fluid page-content" id="page-single-col">
-
-        <div class="row">
-            <div class="col-xs-12">
-
-
-                <div class="facetedlist section">
-
-
-                    <div class="bnr-faceted-drilldown bnr-facetlist-initialized" id="bnr-product-subsection-fdd"
-                         data-autoinstantiate="false" data-facet-validation="true">
-
-
-                        <div class="row" style="opacity: 1;">
-                            <!--left-->
-                            <div class="col-xs-12 col-lg-4 controls-left">
-
-
-                                <div class="row bnr-fdd-cntrl-container-md">
-                                    <div class="bnr-cmpt bnr-12-cols js-fdd-cntrls">
-                                        <form action="" method="get" class="bnr-fdd-ne-cntrl" autocomplete="off">
-
-                                            <div class="narrow-results-block">
-                                                <h3>解决方案</h3>
-                                                <a href="https://www.bannerengineering.com.cn/cn/zh/products/sensors/photoelectric-sensors.html?pageNum=1&amp;#"
-                                                   class="facet-btn facet-btn-reset js-reset" style="display: none;">清除所有过滤器</a>
-                                            </div>
-                                            <hr>
-
-
-                                            <div class="facet-block">
-
-
-                                                <div class="facet-list-item-block">
-
-
-                                                    <h4 class="js-expand noselect">
-                                                        <div class="bnr-facet-list-arrow up hide">
-                                                            <div class="svg-sprite svg-uparrow">
-                                                                <svg width="12" height="7" viewBox="0 0 12 7"
-                                                                     id="uparrow" x="510.1" y="328.561">
-                                                                    <path d="M11.5 5.708L6.024 1 .5 5.708"
-                                                                          stroke="#979797" fill="none"
-                                                                          fill-rule="evenodd"></path>
-                                                                </svg>
-                                                            </div>
-                                                        </div>
-                                                        <div class="bnr-facet-list-arrow down">
-                                                            <div class="svg-sprite svg-downarrow">
-                                                                <svg width="11" height="7" viewBox="0 0 11 7"
-                                                                     id="downarrow" x="533.1" y="328.561">
-                                                                    <path d="M0 1l5.476 4.708L11 1" stroke="#979797"
-                                                                          fill="none" fill-rule="evenodd"></path>
-                                                                </svg>
-                                                            </div>
-                                                        </div>
-                                                        1
-                                                    </h4>
-
-                                                    <ul class="list-unstyled noselect">
-                                                        <li>
-                                                            <span class="count">(15)</span>
-                                                            <input type="checkbox"
-                                                                   name="tag-bec:product-facets/photoelectric-sensors/sensing-mode/diffuse"
-                                                                   id="tag-bec:product-facets/photoelectric-sensors/sensing-mode/diffuse"
-                                                                   value="bec:product-facets/photoelectric-sensors/sensing-mode/diffuse"
-                                                                   data-category="感应模式" class="checkbox-custom">
-                                                            <label class="checkbox-custom-label"
-                                                                   for="tag-bec:product-facets/photoelectric-sensors/sensing-mode/diffuse">
-                                                                <span>漫反射式</span>
-                                                            </label>
-                                                        </li>
-
-                                                        <li>
-                                                            <span class="count">(23)</span>
-                                                            <input type="checkbox"
-                                                                   name="tag-bec:product-facets/photoelectric-sensors/sensing-mode/retroreflective-polarized"
-                                                                   id="tag-bec:product-facets/photoelectric-sensors/sensing-mode/retroreflective-polarized"
-                                                                   value="bec:product-facets/photoelectric-sensors/sensing-mode/retroreflective-polarized"
-                                                                   data-category="感应模式" class="checkbox-custom">
-                                                            <label class="checkbox-custom-label"
-                                                                   for="tag-bec:product-facets/photoelectric-sensors/sensing-mode/retroreflective-polarized">
-                                                                <span>反射板式（偏振）</span>
-                                                            </label>
-                                                        </li>
-                                                    </ul>
-                                                    <hr>
-                                                </div>
-
-
-                                                <div class="facet-list-item-block ">
-
-
-                                                    <h4 class="js-expand noselect">
-                                                        <div class="bnr-facet-list-arrow up hide">
-                                                            <div class="svg-sprite svg-uparrow">
-                                                                <svg width="12" height="7" viewBox="0 0 12 7"
-                                                                     id="uparrow" x="510.1" y="328.561">
-                                                                    <path d="M11.5 5.708L6.024 1 .5 5.708"
-                                                                          stroke="#979797" fill="none"
-                                                                          fill-rule="evenodd"></path>
-                                                                </svg>
-                                                            </div>
-                                                        </div>
-                                                        <div class="bnr-facet-list-arrow down">
-                                                            <div class="svg-sprite svg-downarrow">
-                                                                <svg width="11" height="7" viewBox="0 0 11 7"
-                                                                     id="downarrow" x="533.1" y="328.561">
-                                                                    <path d="M0 1l5.476 4.708L11 1" stroke="#979797"
-                                                                          fill="none" fill-rule="evenodd"></path>
-                                                                </svg>
-                                                            </div>
-                                                        </div>
-                                                        2
-                                                    </h4>
-
-                                                    <ul class="list-unstyled noselect">
-                                                        <li>
-                                                            <span class="count">(7)</span>
-                                                            <input type="checkbox"
-                                                                   name="tag-bec:product-facets/photoelectric-sensors/stainless-steel/yes"
-                                                                   id="tag-bec:product-facets/photoelectric-sensors/stainless-steel/yes"
-                                                                   value="bec:product-facets/photoelectric-sensors/stainless-steel/yes"
-                                                                   data-category="不锈钢" class="checkbox-custom">
-                                                            <label class="checkbox-custom-label"
-                                                                   for="tag-bec:product-facets/photoelectric-sensors/stainless-steel/yes">
-                                                                <span>是</span>
-                                                            </label>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-
-
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="bnr-search-back-to-top right" style="display: none;">
-                                    <div class="bnr-serach-back-to-top-fill">
-
-                                        <div class="svg-sprite svg-addtotoptriangle">
-                                            <svg viewBox="0 0 35.1 25.1" width="35.1" height="25.1"
-                                                 id="addtotoptriangle" x="336" y="328.561">
-                                                <path d="M19.2 1.2l15.2 20.2c.7.9.5 2.1-.4 2.8-.5.4-1.2.5-1.8.3l-14.3-4.9-14.9 5c-1 .3-2.2-.2-2.5-1.3-.2-.6-.1-1.3.3-1.8L16 1.2c.7-.9 1.9-1.1 2.8-.4l.4.4z"
-                                                      fill="#FFD600"></path>
-                                            </svg>
-                                        </div>
-
-                                        <br>
-                                        <h4>Back To Top</h4>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                            <!--right-->
-                            <div class="col-xs-12 col-lg-8">
-
-
-                                <div class="row mobile-facet-control-container">
-                                    <div class="bnr-accordion " id="bnr-accordion-1528936348623">
-                                        <div class="bnr-accordion-list" role="tablist" aria-multiselectable="true">
-
-                                            <div class="bnr-accordion-item">
-                                                <a role="button" data-toggle="collapse"
-                                                   href="https://www.bannerengineering.com.cn/cn/zh/products/sensors/photoelectric-sensors.html?pageNum=1&amp;#bnr-ml-folder-tab"
-                                                   aria-expanded="true" aria-controls="form-control"
-                                                   class="bnr-accordion-item-title-link bnr-accordion-item-title collapsed"
-                                                   id="bnr-accordion-title-1528936348623-1">
-                                                    <h4>
-
-                                                        <div class="svg-sprite svg-plus">
-                                                            <svg width="32" height="32" viewBox="0 0 32 32" id="plus"
-                                                                 x="214" y="441.561">
-                                                                <g fill="none" fill-rule="evenodd">
-                                                                    <path d="M16 11v10M21 16H11" stroke="#979797"
-                                                                          stroke-width="3"
-                                                                          stroke-linecap="square"></path>
-                                                                    <path d="M16 0c8.836 0 16 7.164 16 16s-7.164 16-16 16S0 24.836 0 16 7.164 0 16 0zm0 29c7.168 0 13-5.832 13-13S23.168 3 16 3 3 8.832 3 16s5.832 13 13 13z"
-                                                                          fill="#818091"></path>
-                                                                </g>
-                                                            </svg>
-                                                        </div>
-
-
-                                                        <div class="svg-sprite svg-minus">
-                                                            <svg width="32" height="32" viewBox="0 0 32 32" id="minus"
-                                                                 x="182" y="441.561">
-                                                                <g fill="none" fill-rule="evenodd">
-                                                                    <path d="M21 16H11" stroke="#979797"
-                                                                          stroke-width="3"
-                                                                          stroke-linecap="square"></path>
-                                                                    <path d="M16 0c8.836 0 16 7.164 16 16s-7.164 16-16 16S0 24.836 0 16 7.164 0 16 0zm0 29c7.168 0 13-5.832 13-13S23.168 3 16 3 3 8.832 3 16s5.832 13 13 13z"
-                                                                          fill="#818091"></path>
-                                                                </g>
-                                                            </svg>
-                                                        </div>
-
-                                                        缩小结果范围
-                                                    </h4>
-                                                </a>
-
-                                                <div id="bnr-ml-folder-tab" class="collapse channel-initialized"
-                                                     role="tabpanel"
-                                                     aria-labelledby="bnr-accordion-title-1528936348623-1">
-                                                    <div class="bnr-accordion-item-body">
-                                                        <div class="row bnr-fdd-cntrl-container-xs">
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="row">
-                                    <div class="col-xs-12 bnr-fdd-afl-prompt" style="display: none;">提醒</div>
-                                    <div class="bnr-fdd-active-filter-list" style="display: none;"></div>
-                                </div>
-                                <!--产品开始-->
-                                <div class="row">
-                                    <div class="bnr-thumbnail-list" data-pagination-max-size-list="15" data-cta="">
-                                        <ol class="list-unstyled" data-initial-list="false">
-
-                                            <li>
-                                                <div class="bnr-tnl-thumbnail-outer">
-                                                    <a href="" target="_self">
-                                                        <div class="bnr-tnl-thumbnail-box">
-                                                            <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
-                                                                 style="visibility: visible;"><img
-                                                                    src="file/q3x-laser-contrast-sensor.img.png" alt=""
-                                                                    style="max-width: 100%;"></div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="bnr-tnl-copy-box">
-                                                    <h3 class="hidden-xs hidden-sm">
-                                                        <a href="" target="_self">Q3X系列激光对比度传感器 </a></h3>
-                                                    <a href=""
-                                                       target="_self">
-                                                        <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
-                                                             style="visibility: visible;"><img
-                                                                src="file/q3x-laser-contrast-sensor.img.png"
-                                                                alt=""
-                                                                style="max-width: 100%;"></div>
-                                                    </a>
-                                                    <h3 class="hidden-md hidden-lg"><a
-                                                            href=""
-                                                            target="_self">Q3X系列激光对比度传感器 </a></h3>
-                                                    <p>坚固耐用的高速传感器，用于检测存在/不存在、定位和色标检测等较有挑战性的检测应用，此类应用的特点是对比度差异较小。</p>
-                                                    <div class="row button-row">
-                                                        <div class="bnr-cmpt col-xs-12">
-                                                            <a class="btn btn-secondary-light btn-sm" role="button"
-                                                               href=""
-                                                               target="_self">查看更多</a>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="bnr-tnl-thumbnail-outer">
-                                                    <a href="" target="_self">
-                                                        <div class="bnr-tnl-thumbnail-box">
-                                                            <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
-                                                                 style="visibility: visible;"><img
-                                                                    src="file/q3x-laser-contrast-sensor.img.png" alt=""
-                                                                    style="max-width: 100%;"></div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="bnr-tnl-copy-box">
-                                                    <h3 class="hidden-xs hidden-sm">
-                                                        <a href="" target="_self">Q3X系列激光对比度传感器 </a></h3>
-                                                    <a href=""
-                                                       target="_self">
-                                                        <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
-                                                             style="visibility: visible;"><img
-                                                                src="file/q3x-laser-contrast-sensor.img.png"
-                                                                alt=""
-                                                                style="max-width: 100%;"></div>
-                                                    </a>
-                                                    <h3 class="hidden-md hidden-lg"><a
-                                                            href=""
-                                                            target="_self">Q3X系列激光对比度传感器 </a></h3>
-                                                    <p>坚固耐用的高速传感器，用于检测存在/不存在、定位和色标检测等较有挑战性的检测应用，此类应用的特点是对比度差异较小。</p>
-                                                    <div class="row button-row">
-                                                        <div class="bnr-cmpt col-xs-12">
-                                                            <a class="btn btn-secondary-light btn-sm" role="button"
-                                                               href=""
-                                                               target="_self">查看更多</a>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </li>
-
-                                        </ol>
-                                    </div>
-                                </div>
-                                <!--产品结束-->
-                                <!--加载开始-->
-                                <!--<div class="row pagination-container">-->
-                                    <!--<div class="bnr-fdd-pagination" style="display: block;">-->
-                                        <!--<div class="bnr-button row">-->
-                                            <!--<div class="bnr-cmpt col-xs-12">-->
-                                                <!--<a class="btn bnr-pagination hidden-print btn-sm more" role="button"-->
-                                                   <!--href="">全部加载</a>-->
-                                                <!--<a class="btn bnr-pagination hidden-print btn-sm all" role="button"-->
-                                                   <!--href="">显示所有</a>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--加载结束-->
-
-
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                </div>
 
             </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="bnr-thumbnail-list" data-pagination-max-size-list="15" data-cta="">
+                    <ol class="list-unstyled" data-initial-list="false">
+
+                        <li>
+                            <div class="bnr-tnl-thumbnail-outer">
+                                <a href="" target="_self">
+                                    <div class="bnr-tnl-thumbnail-box">
+                                        <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
+                                             style="visibility: visible;"><img
+                                                src="file/q3x-laser-contrast-sensor.img.png" alt=""
+                                                style="max-width: 100%;"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="bnr-tnl-copy-box">
+                                <h3 class="hidden-xs hidden-sm">
+                                    <a href="" target="_self">Q3X系列激光对比度传感器 </a></h3>
+                                <a href=""
+                                   target="_self">
+                                    <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
+                                         style="visibility: visible;"><img
+                                            src="file/q3x-laser-contrast-sensor.img.png"
+                                            alt=""
+                                            style="max-width: 100%;"></div>
+                                </a>
+                                <h3 class="hidden-md hidden-lg"><a
+                                        href=""
+                                        target="_self">Q3X系列激光对比度传感器 </a></h3>
+                                <p>坚固耐用的高速传感器，用于检测存在/不存在、定位和色标检测等较有挑战性的检测应用，此类应用的特点是对比度差异较小。</p>
+                                <div class="row button-row">
+                                    <div class="bnr-cmpt col-xs-12">
+                                        <a class="btn btn-secondary-light btn-sm" role="button"
+                                           href=""
+                                           target="_self">查看更多</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bnr-tnl-thumbnail-outer">
+                                <a href="" target="_self">
+                                    <div class="bnr-tnl-thumbnail-box">
+                                        <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
+                                             style="visibility: visible;"><img
+                                                src="file/q3x-laser-contrast-sensor.img.png" alt=""
+                                                style="max-width: 100%;"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="bnr-tnl-copy-box">
+                                <h3 class="hidden-xs hidden-sm">
+                                    <a href="" target="_self">Q3X系列激光对比度传感器 </a></h3>
+                                <a href=""
+                                   target="_self">
+                                    <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
+                                         style="visibility: visible;"><img
+                                            src="file/q3x-laser-contrast-sensor.img.png"
+                                            alt=""
+                                            style="max-width: 100%;"></div>
+                                </a>
+                                <h3 class="hidden-md hidden-lg"><a
+                                        href=""
+                                        target="_self">Q3X系列激光对比度传感器 </a></h3>
+                                <p>坚固耐用的高速传感器，用于检测存在/不存在、定位和色标检测等较有挑战性的检测应用，此类应用的特点是对比度差异较小。</p>
+                                <div class="row button-row">
+                                    <div class="bnr-cmpt col-xs-12">
+                                        <a class="btn btn-secondary-light btn-sm" role="button"
+                                           href=""
+                                           target="_self">查看更多</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
 </div>
 

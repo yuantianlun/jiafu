@@ -11,8 +11,7 @@ div{
     display: block;
 }
 a {
-    width: 100%;
-    height: 100%;
+
     text-decoration: none;
 }
 boby{
@@ -688,13 +687,15 @@ footer{
     width: 80%;
     padding: 20px 0;
     background: #ffffff;
-    border-radius: 50px;
+    border-radius: 25px;
     border: 1px solid #414141;
     text-align: center;
 
 }
 .qiyejianjie_btn a{
     color: #414141;
+    font-size: 18px;
+
 }
 .qiyejianjie_img1{
     padding: 30px;
@@ -704,6 +705,7 @@ footer{
 }
 .qiyejianjie_btnDJ{
     background: #234187;
+    font-size: 18px;
 }
 .qiyejianjie_btnDJ a{
     color: #ffffff;
@@ -722,6 +724,7 @@ footer{
     width:100%;
     height:280px;
     position: relative;
+    overflow: hidden;
 }
 .qiyewenhua_box img{
     width:100%;
@@ -774,6 +777,7 @@ footer{
     width:100%;
     height:280px;
     position: relative;
+    overflow: hidden;
 }
 .qiyewenhua_box2 img{
     width:100%;
@@ -835,16 +839,9 @@ footer{
 
 /*荣誉资质结束*/
 /*产品二级页面开始*/
-.chanpin_box{
-    height:250px;
-    border: 1px solid #595959;
+.y_chanpin_box{
+    width: 100%;
 }
-.chanpin_boximg{
-    width:100%;
-    height:80%;
-    border-bottom: 4px solid #2d3192;
-}
-
 
 
 
@@ -855,24 +852,23 @@ footer{
 
 /*产品中心开始*/
 
-.inbolck-service {
-    background: #fff;
-}
+
 .page-cen {
     width: auto;
-    padding: 0 80px;
+    padding: 80px 80px;
     margin: 0px auto;
-    min-width: 1200px;
 }
 .service-list-con {
     padding: 120px 0;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px #abbabf;
 }
 .clearfix {
     clear: both;
 }
 .inbolck-service2 .service-text {
     float: right;
-    text-align: right;
+    text-align: left;
 }
 .inbolck-service .service-text {
     float: left;
@@ -882,6 +878,7 @@ footer{
 }
 .service-list {
     width: 50%;
+    padding-left: 100px;
 }
 .service-text .title h2 {
     font-size: 30px;
@@ -909,7 +906,19 @@ footer{
 .inbolck-service .service-pic .pic {
     float: right;
 }
+.more{
+    width: 180px;
+    height: 50px;
+    background: #234187;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+.more a{
 
+    color: #ffffff;
+
+}
 
 
 /*产品中心结束*/
