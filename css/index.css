@@ -312,8 +312,8 @@ background: #e0f7ff;
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 200px;
-    height: 400px;
+    width: 25%;
+    height: 80%;
     border-radius: 5px;
     border: 1px solid #ffffff;
     margin: auto 0;
@@ -321,12 +321,15 @@ background: #e0f7ff;
     padding:  45px 20px;
 }
 .index3-lbottom-dtbox div{
+    padding: 50px 0;
+}
+.index3-lbottom-dtbox div div{
     font-size: 22px;
     color: #ffffff;
     text-align: center;
     padding: 5px 0;
 }
-.index3-lbottom-dtbox p{
+.index3-lbottom-dtbox div p{
     padding-top: 20px;
     font-size: 18px;
     color: #FFFFFF;
