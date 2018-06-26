@@ -210,6 +210,9 @@
 	.col-md-12{
 		width: 100%;
 	}
+	.footer-rightL {
+		margin-left: 30px;
+	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1355px) {
 
@@ -249,8 +252,15 @@
 	.col-ff-12{
 		width: 100%;
 	}
+	.footer-rightL {
+		margin-left: 40px;
+	}
 }
-
+@media screen and (min-width: 1355px) and (max-width: 1500px) {
+	.footer-rightL {
+		margin-left: 50px;
+	}
+}
 /* pc大屏 >1200 col-lg*/
 @media screen and (min-width: 1355px){
 	.container:{
