@@ -226,7 +226,7 @@ background: #e0f7ff;
     height: 80%;
 }
 .index1_bottom ul li{
-    padding: 45px;
+    padding: 35px;
 }
 .index1_bottom ul li a{display:inline-block;width: 100%; height: 100%;position: relative;}
 .index1_bottom ul li a span{height:0;display:block;background:#234187;position:absolute;bottom:0;color:#fff;font-size:0px;}
@@ -320,8 +320,11 @@ background: #e0f7ff;
     margin-left: 40px;
     padding:  45px 20px;
 }
-.index3-lbottom-dtbox div{
-    padding: 50px 0;
+.index3-zhebox{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
 }
 .index3-lbottom-dtbox div div{
     font-size: 22px;
