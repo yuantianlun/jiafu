@@ -54,8 +54,21 @@
 
 
 @media (max-width: 768px){
+    .index-about{
+        height: 200px;
+    }
+    .index-about-video{
+        height: 200px;
+    }
+    .shubiao{
+        width: 10px;
+        height: 10px;
+    }
+    .index3-left{
+        padding: 20px 0;
+    }
     .index1_top {
-        padding: 25px 0;
+        padding: 10px;
     }
     .index1_top h3{
         font-size: 18px;
@@ -66,8 +79,11 @@
     .index1_top h2{
         font-size: 16px;
     }
+    .index4{
+        height: 300px;
+    }
     .index4_top {
-        padding: 25px 0;
+        padding-top: 10px;
     }
     .index4_top h3{
         font-size: 18px;
@@ -79,7 +95,7 @@
         font-size: 16px;
     }
     .index5_top {
-        padding: 25px 0;
+        padding: 10px;
     }
     .index5_top h3{
         font-size: 18px;
