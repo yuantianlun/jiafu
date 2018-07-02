@@ -10,14 +10,20 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/kuangjia.css">
     <link rel="stylesheet" href="css/c.css">
+    <link rel="stylesheet" href="css/leftnav.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_719357_69svww5q9t.css">
 
     <script src="js/jquery.min.js"></script>
     <script src="js/video.min.js"></script>
     <script src="js/videojs-ie8.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/headlibs.js"></script>
+    <script src="js/leftnav.js"></script>
+
 </head>
 <body style="background: #e0f7ff;">
 <!--头部开始-->
@@ -378,134 +384,350 @@
 <!--banner结束-->
 
 <!---->
-<div class="jiejue1">
-    <div class="index1_top">
-        <h3>产品中心</h3>
-        <div class="index1_yinying">
-            <img src="images/nav_yinying.png" alt="">
-        </div>
-        <h2>PRODUCT</h2>
-    </div>
 
-</div>
 
 <!---->
-<div class="inblock  inbolck-service2">
-    <div class="page-cen">
-        <div class="service-list-con clearfix">
-            <div class="service-list service-text">
-                <div class="title">
-                    <h2>智能制造</h2>
+<div class="page-wrapper container-fluid">
+
+    <div class="row">
+        <div class="shaixuan_box shaixuan_box1">
+            <div class="col-lg-8">
+                <div class="index3-lan mb-60">
+                    <div class="index3-lanTiao"></div>
+                    <h3>资料中心</h3>
+                    <h5>INFORMATION CENTER</h5>
+                </div>
+                <div class="account-l fl">
+                    <ul id="accordion" class="accordion">
+                        <li><div class="link link_title">资料筛选</div></li>
+                        <li>
+                            <div class="link">智能制造<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li id="shop">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="publicproducts">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="productlists">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="mysaled">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link">标准设备<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li id="publishpurchase">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="postneeds">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="getneeds">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="mypricesheet">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="concernshop">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="concerngood">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link">自动化核心模块<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li id="buyerxunpanlist">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="publishrequire">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link">相关耗材<i class="fa fa-chevron-down"></i></div>
+                            <ul class="submenu">
+                                <li id="myorder">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                                <li id="myrefund">
+                                    <input type="checkbox"  class="checkbox-custom">
+                                    <span>查看店铺</span>
+                                    <div style="float: right">9</div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
 
                 </div>
-                <div class="text">
-                    <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测<br>
-                        试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻 <br>
-                        测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻<br>
-                        测试新闻测试新闻测试新闻
-                        测试新闻测试新闻
-                    </p>
-                </div>
-                <div class="more">
-                    <a href="">查看更多 &nbsp;></a>
+                <div class="download_box fl">
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
+                    <div class="download_wrap clearfix">
+                        <div class="download_table download_icon fl">
+                            <img src="images/download_icon.png">
+                        </div>
+
+                        <div class="download_table download_action fr text-center">
+                            <span class="iconfont icon-fangda"></span>
+                            <span class="iconfont icon-xiazai"></span>
+                        </div>
+                        <div class="download_table download_title">
+                            测试新闻测试新闻测试新闻
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="service-list service-pic">
-                <div class="pic">
-                    <img src="images/fuwu001.jpg" />
+            <div class="col-lg-4">
+                <div class="index3-lanr mb-60">
+                    <div class="index3-lanTiaor"></div>
+                    <h3>技术咨询</h3>
+                    <h5>TECHNICAL CONSULTATION</h5>
+                </div>
+                <div class="solution_contact row">
+                    <div>
+                        <div class="solution_contact_btn">
+                            <div>技术在线</div>
+                            <div>在线咨询</div>
+                            <div>加盟渠道</div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="solution_contact_form clearfix">
+                            <input class="user" type="text" placeholder="姓名（必填）">
+                            <input type="email" placeholder="邮箱（必填）">
+                            <input type="tel" placeholder="电话（必填）">
+                            <input class="company" type="text" placeholder="公司名称（必填）">
+                            <input class="job" type="text" placeholder="在职岗位（必填）">
+                            <input class="trade" type="text" placeholder="所属行业（必填）">
+                            <textarea rows="6" placeholder="具体需求。。。。。。"></textarea>
+                            <input type="submit" value="发送">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
 </div>
 
 
-<div class="inblock inbolck-service">
-    <div class="page-cen">
-        <div class="service-list-con clearfix">
-            <div class="service-list service-text">
-                <div class="title">
-                    <h2>标准化设备</h2>
-
-                </div>
-                <div class="text">
-                    <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测<br>
-                        试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻 <br>
-                        测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻<br>
-                        测试新闻测试新闻测试新闻
-                        测试新闻测试新闻
-                    </p>
-                </div>
-                <div class="more">
-                    <a href="">查看更多 &nbsp;></a>
-                </div>
-            </div>
-            <div class="service-list service-pic">
-                <div class="pic">
-                    <img src="images/fuwu001.jpg" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="inblock  inbolck-service2">
-    <div class="page-cen">
-        <div class="service-list-con clearfix">
-            <div class="service-list service-text">
-                <div class="title">
-                    <h2>自动化核心模块</h2>
-
-                </div>
-                <div class="text">
-                    <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测<br>
-                        试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻 <br>
-                        测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻<br>
-                        测试新闻测试新闻测试新闻
-                        测试新闻测试新闻
-                    </p>
-                </div>
-                <div class="more">
-                    <a href="">查看更多 &nbsp;></a>
-                </div>
-            </div>
-            <div class="service-list service-pic">
-                <div class="pic">
-                    <img src="images/fuwu001.jpg" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="inblock inbolck-service">
-    <div class="page-cen">
-        <div class="service-list-con clearfix">
-            <div class="service-list service-text">
-                <div class="title">
-                    <h2>相关耗材</h2>
-
-                </div>
-                <div class="text">
-                    <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测<br>
-                        试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻 <br>
-                        测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻<br>
-                        测试新闻测试新闻测试新闻
-                        测试新闻测试新闻
-                    </p>
-                </div>
-                <div class="more">
-                    <a href="">查看更多 &nbsp;></a>
-                </div>
-            </div>
-            <div class="service-list service-pic">
-                <div class="pic">
-                    <img src="images/fuwu001.jpg" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!--底部开始-->
 <footer>
@@ -609,9 +831,10 @@
 </footer>
 
 
-
 <!--底部结束-->
 </body>
 <script src="js/v3.homepage.min-17d112246487eb8174381d85cdcae5ea.js"></script>
-
+<script>
+    $('.download_box').scrollHeight(100);
+</script>
 </html>

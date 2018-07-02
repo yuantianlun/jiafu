@@ -1,0 +1,157 @@
+@media (max-width: 1680px){
+
+
+}
+
+@media (max-width: 1440px){
+
+
+}
+
+@media (max-width: 1360px) {
+    .slide-grid-container {
+        height: 660px;
+    }
+
+    .slide-grid-container .slide-grid-item a {
+        background-size: auto 660px;
+    }
+
+    .ph-post1-wrapper .button:after, .ph-post1-wrapper .button > span > span {
+
+        padding: 0.7em 0;
+    }
+
+    .ph-post1-wrapper .button {
+        width: 8em;
+    }
+}
+    @media (max-width: 1200px) {
+        .footer-left {
+            display: none;
+        }
+        .index3-right{
+            display: none;
+        }
+
+    }
+
+@media (max-width: 992px){
+.one{
+    overflow-x: scroll;
+}
+    .one ul{
+        width: 2000px;
+    }
+    .footer-left{
+        display: none;
+    }
+    .index3-right{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 768px){
+    .index1_top {
+        padding: 25px 0;
+    }
+    .index1_top h3{
+        font-size: 18px;
+    }
+    .index1_yinying {
+        margin: 5px auto;
+    }
+    .index1_top h2{
+        font-size: 16px;
+    }
+    .index4_top {
+        padding: 25px 0;
+    }
+    .index4_top h3{
+        font-size: 18px;
+    }
+    .index4_yinying {
+        margin: 5px auto;
+    }
+    .index4_top h2{
+        font-size: 16px;
+    }
+    .index5_top {
+        padding: 25px 0;
+    }
+    .index5_top h3{
+        font-size: 18px;
+    }
+    .index5_yinying {
+        margin: 5px auto;
+    }
+    .index5_top h2{
+        font-size: 16px;
+    }
+    .index1_bottom ul li {
+        padding: 10px ;
+    }
+    .index3-lbottom-dtbox {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 80%;
+        height: 80%;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        margin: auto;
+        padding: 5px 15px;
+    }
+    .index3-lbottom-dtbox div div{
+        font-size: 14px;
+        padding: 3px 0;
+    }
+    .index3-lbottom-dtbox div p{
+        font-size: 12px;
+    }
+    .news_wenzi h6 {
+        font-size: 16px;
+    }
+    .news_wenzi p {
+        font-size: 12px;
+    }
+    .footer-left{
+        display: none;
+    }
+    .index3-right{
+        display: none;
+    }
+    .qiyejianjie_btnBox{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ph-post1-wrapper .button{
+        margin: 0 auto;
+        width: 6em;
+    }
+    .ph-post1-wrapper {
+        font-size: 14px;
+    }
+    .index3-lan h3{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .index3-lan h5{
+        font-size: 14px;
+    }
+    .index3-lanTiao{
+        height: 55px;
+    }
+    .index3-ltop p{
+        font-size: 12px;
+        padding: 0;
+         margin-top: 0;
+    }
+    .qiyejianjie_img1{
+        padding: 0;
+    }
+}

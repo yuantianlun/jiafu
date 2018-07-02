@@ -70,14 +70,14 @@ $(function(){
 		var b=0,f=$(".list li").length,d=0,a=!0,c;
 		(function(){
 			var a=$(window).height();
-			890<=a&&(row=6);
-			800<=a&&890>a&&(row=5);
-			726<=a&& 800>a&&(row=4);
-			726>a&&(row=3)}
+			890<=a&&(row=5);
+			800<=a&&890>a&&(row=4);
+			726<=a&& 800>a&&(row=3);
+			726>a&&(row=2)}
 		)();
 		var h=f-row;
-		$(".list").height(110*row);
-		$("#content").height(110*row+25);
+		$(".list").height(65*row);
+		$("#content").height(65*row);
 		$.fn.liOut=function(){
 			$(this).find(".lileft").animate({left:"-400px"},500,"easeOutQuart");
 			$(this).find(".liright").animate({right:"-700px"},500,"easeOutQuart")
@@ -104,6 +104,7 @@ $(function(){
 				var d=parseInt($(".list li:first").css("marginTop"));
 				0<c?0!=d&&($(".arrowup").addClass("arrow_active"),$(".arrowup").trigger("click")):d>-110*h&&($(".arrowdown").addClass("arrow_active"),$(".arrowdown").trigger("click"))
 			}
+            return false;
 		});
 		$(".timeblock").attr("thisyear",c);
 		$(".list li:gt("+(row-1)+")").find(".lileft").css({left:"-400px"});

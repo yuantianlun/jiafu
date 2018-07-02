@@ -6,10 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #fff;
-    font: 12px Microsoft YaHei, arial, sans-serif;
-}
+
 
 ul {
     list-style-type: none;
@@ -23,6 +20,14 @@ ul {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 600px;
+}
+.shaixuan_box1 .account-l{
+    width: 30%;
+    position: relative;
+    z-index: 1;
+}
+.shaixuan_box1 .accordion{
+    max-width: 100% ;
 }
 .list-title{
     display: inline-block;
@@ -40,17 +45,6 @@ ul {
     background: #234187;
     font-weight: bold;
     cursor: pointer;
-}
-h1 {
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 80px;
-}
-
-h1 a {
-    font-size: 16px;
 }
 
 .accordion {
@@ -73,7 +67,11 @@ h1 a {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-
+.accordion .link_title{
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}
 .accordion li:last-child .link {
     border-bottom: 0;
 }
@@ -110,6 +108,7 @@ h1 a {
 .submenu {
     display: none;
     font-size: 14px;
+    padding-bottom: 20px;
 }
 
 

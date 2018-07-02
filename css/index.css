@@ -1,4 +1,4 @@
-/*通用开始*/
+﻿/*通用开始*/
 * {
     padding: 0;
     margin:0 ;
@@ -18,15 +18,33 @@ boby{
     padding: 0;
     margin:0 ;
     background: #fff;
+    font-size:18px;
+    color: #414141;
 }
 img{
     border: 0;
     width: 100%;
 }
+/*iconfont*/
+@font-face {
+    font-family: 'iconfont';  /* project id 723019 */
+    src: url('https://at.alicdn.com/t/font_723019_ag1lrs0jtdq.eot');
+    src: url('https://at.alicdn.com/t/font_723019_ag1lrs0jtdq.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_723019_ag1lrs0jtdq.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_723019_ag1lrs0jtdq.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_723019_ag1lrs0jtdq.svg#iconfont') format('svg');
+}
+.icon-font{
+    font-size: 16px;
+    color: #000;
+}
 .section{
     padding: 0;
 }
 /*通用结束*/
+
+
+
 
 /*   头部开始    */
 header{
@@ -53,7 +71,7 @@ header{
     float: left;
     color: #ffffff;
     font-size: 18px;
-    width: 100px;
+    width: 120px;
     text-align: center;
 }
 .nav-item-inner{
@@ -141,6 +159,9 @@ header{
     background: #000000a1;
     z-index: 10;
 }
+.swiper-container-box{
+    position: relative;
+}
 .swiper-container{
     width: 100%;
     height: 100%;
@@ -210,8 +231,9 @@ background: #e0f7ff;
     padding: 45px 0;
 }
 .index1_top h3{
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
+    letter-spacing: 4px
 }
 .index1_yinying{
     width: 230px;
@@ -220,6 +242,7 @@ background: #e0f7ff;
 .index1_top h2{
     font-size: 22px;
     text-align: center;
+    letter-spacing: 5px
 }
 .index1_bottom{
     width: 100%;
@@ -243,7 +266,7 @@ background: #e0f7ff;
 }
 .one{margin:0;height:100%;width:100%;overflow:hidden;position:relative; }
 .one ul{height:240px;width:100%;position:absolute;left:0;} /*ul width的宽不能过小*/
-.one ul li{display:block;float:left;width: 20%;height:240px;border-radius:5px;position:relative;}
+.one ul li{display:block;float:left;width:300px; height:240px;border-radius:5px;position:relative;}
 .one ul li a{display:inline-block;height:240px;width: 100%;background: url("../images/a1.png")center no-repeat}
 .one ul li img{width: 50%;display:block;position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;}
 /*.one ul li a span{height:0;display:block;background:#234187;position:absolute;bottom:0;color:#fff;font-size:0px;}*/
@@ -349,6 +372,24 @@ background: #e0f7ff;
     height: 100px;
     background: #234187;
 }
+.index3-lanTiaor{
+    float: right;
+    width: 8px;
+    height: 100px;
+    background: #234187;
+}
+.index3-lanr h3{
+    font-size: 28px;
+    padding-right: 30px;
+    line-height: 60px;
+    text-align: right;
+}
+.index3-lanr h5{
+    font-size: 22px;
+    padding-right: 30px;
+    line-height: 20px;
+    text-align: right;
+}
 .index3-lan h3{
     font-size: 28px;
     padding-left: 30px;
@@ -364,6 +405,7 @@ background: #e0f7ff;
     margin-top: 30px;
     font-size: 16px;
     letter-spacing: 5px;
+    line-height: 30px;
 }
 .index3-right{
     width: 50%;
@@ -472,8 +514,9 @@ background: #e0f7ff;
     padding-top: 60px;
 }
 .index4_top h3{
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
+    letter-spacing: 4px
 }
 .index4_yinying{
     width: 230px;
@@ -482,6 +525,7 @@ background: #e0f7ff;
 .index4_top h2{
     font-size: 22px;
     text-align: center;
+    letter-spacing: 5px
 }
 .index4-bottom {
     width: 100%;
@@ -516,8 +560,9 @@ background: #e0f7ff;
     padding-bottom: 30px;
 }
 .index5_top h3{
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
+    letter-spacing: 4px
 }
 .index5_yinying{
     width: 230px;
@@ -526,6 +571,7 @@ background: #e0f7ff;
 .index5_top h2{
     font-size: 22px;
     text-align: center;
+    letter-spacing: 5px
 }
 .index5-bottom{
     position: relative;
@@ -548,7 +594,7 @@ background: #e0f7ff;
     color: #414141;
     font-size: 14px;
     text-align: left;
-    margin-top: 5px;
+    margin-top: 15px;
     letter-spacing: 2px;
     font-family: "Hei";
 }
@@ -908,7 +954,23 @@ footer{
 .y_chanpin_box{
     width: 100%;
 }
-
+.y_chanpin_box ul li{
+    margin-bottom: 40px;
+}
+.y-cahnpibox{
+    border: 1px solid #595959;
+}
+.y-chanpiimgbox{
+    width: 100%;
+    border-bottom: 1px solid #595959;
+}
+.y-chanpiwenzibox{
+    width: 100%;
+    padding: 30px 0;
+    border-top: 4px solid #2d3192;
+    text-align: center;
+    font-size: 16px;
+}
 
 
 
@@ -988,3 +1050,85 @@ footer{
 
 
 /*产品中心结束*/
+
+
+/*按钮开始*/
+
+
+.ph-post1-wrapper {
+
+    width: 100%;
+    margin: 0 auto;
+    /*max-width: 15.25em;*/
+    /*min-width: 10em;*/
+    font-size: 24px;
+    /*font: 2em/1.4 "Bowlby One SC", Arial, sans-serif;*/
+    font-weight: 400; }
+.ph-post1-wrapper img {
+    max-width: 100%;
+    height: auto; }
+.ph-post1-wrapper a {
+    text-decoration: none; }
+
+
+.ph-post1-wrapper .button {
+    display: block;
+    position: relative;
+    height: 3.5em;
+    width: 10em;
+    margin: .7em auto;
+    overflow: hidden;
+}
+.ph-post1-wrapper .button > span {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out; }
+.ph-post1-wrapper .button:after, .ph-post1-wrapper .button > span > span {
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #595959;
+    padding: 1em 0; }
+.ph-post1-wrapper .button:after {
+    content: attr(data-title);
+    width: 100%;
+    background: #ffffff;
+    color: #414141; }
+.ph-post1-wrapper .button > span > span {
+    width: 10em;
+    background: #2a2a2a;
+    color: #ffffff; }
+.ph-post1-wrapper .button:hover > span {
+    width: 100%; }
+
+.ph-post1-wrapper .button1 > span {
+    height: 0%;
+    width: 100%; }
+.ph-post1-wrapper .button1:hover > span {
+    height: 100%; }
+.ph-post1-wrapper .button1:after {
+    background: #eb6e61;
+    color: #414141; }
+.ph-post1-wrapper .button1 > span > span {
+    background: #2f3c4b;
+    color: #414141; }
+
+footer {
+    text-align: center;
+    font-size: .5em;
+    font-family: Helvetica, Arial, sans-serif; }
+
+.ph-post1-wrapper .buttonDJ:after{
+    background: #2a2a2a;
+    color: #ffffff;
+}
+
+/*按钮结束*/

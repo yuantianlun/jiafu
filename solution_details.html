@@ -1,25 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>产品中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>解决方案</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/video-js.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/kuangjia.css">
-    <link rel="stylesheet" href="css/c.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style>
+        .preview {
+            margin-top: 10px;
+            position: relative;
+        }
+        .preview .swiper-slide {
+            width: 18%;
+            margin-right: 2.5%;
+        }
+        .preview .swiper-slide:last-child{
+            margin-right: 0;
+        }
+        .preview img {
+            padding: 1px;
+        }
+        .preview .active-nav img {
+            padding: 0;
+            border: 1px solid #000;
+        }
+    </style>
+
 
     <script src="js/jquery.min.js"></script>
-    <script src="js/video.min.js"></script>
-    <script src="js/videojs-ie8.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/headlibs.js"></script>
+
 </head>
-<body style="background: #e0f7ff;">
+<body>
 <!--头部开始-->
 <header>
     <div class="header">
@@ -223,7 +241,7 @@
 
                 </div>
             </li>
-            <li style="width: 270px">
+            <li style="width: 220px">
                 <img src="images/logo.png" alt="">
             </li>
             <li class="nav-item has-meganav" role="presentation">
@@ -318,7 +336,7 @@
                                         <div class="thumbnail-image-wrap">
                                             <img class="thumbnail-image" src="images/header_001.jpg" alt="">
                                         </div>
-                                        <span class="thumbnail-title">销售网络</span>
+                                        <span class="thumbnail-title">加盟方式</span>
                                     </a>
                                 </li>
 
@@ -334,7 +352,7 @@
     </div>
 </header>
 <!--头部结束-->
-
+<!--内容开始-->
 <!--banner开始-->
 <div class="index-about">
     <div class="index-about-video">
@@ -346,22 +364,25 @@
         <div class="video-bg"></div>
     </div>
     <div class="index-about-text">
-        <div class="swiper-container acc" style="height: 50%; position: absolute;top: 0;bottom: 0;margin: auto 0;">
+        <div class="swiper-container acc" style="height: 50%; position: absolute;top: 0;bottom: 0;margin: auto 0; width: 100%">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <h1 style="font-size: 1.5em">做值得信赖的智能制造合作伙伴</h1>
+                    <h1>智能制造</h1>
+                    <h4>在线焊锡机/锁螺丝机器人</h4>
+                    <h4>设备专业生产商</h4>
                 </div>
                 <div class="swiper-slide">
-                    <h1 style="font-size: 1.5em">做值得信赖的智能制造合作伙伴</h1>
+                    <h1>智能制造</h1>
+                    <h4>在线焊锡机/锁螺丝机器人</h4>
+                    <h4>设备专业生产商</h4>
                 </div>
                 <div class="swiper-slide">
-                    <h1 style="font-size: 1.5em">做值得信赖的智能制造合作伙伴</h1>
+                    <h1>智能制造</h1>
+                    <h4>在线焊锡机/锁螺丝机器人</h4>
+                    <h4>设备专业生产商</h4>
                 </div>
             </div>
         </div>
-        <script>
-            var myswiper = new Swiper('.acc');
-        </script>
     </div>
     <div class="shubiao">
         <img src="images/shubiao.png" alt="">
@@ -377,136 +398,96 @@
 </script>
 <!--banner结束-->
 
-<!---->
-<div class="jiejue1">
-    <div class="index1_top">
-        <h3>产品中心</h3>
-        <div class="index1_yinying">
-            <img src="images/nav_yinying.png" alt="">
+
+<div class="main">
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="pc-slide">
+                        <div class="view">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a target="_blank"><img class="img-responsive" src="images/b1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a target="_blank"><img class="img-responsive" src="images/b2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a target="_blank"><img class="img-responsive" src="images/b3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a target="_blank"><img class="img-responsive" src="images/b4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a target="_blank"><img class="img-responsive" src="images/b5.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="preview">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide active-nav">
+                                        <img class="img-responsive" src="images/s1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="img-responsive" src="images/s2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="img-responsive" src="images/s3.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="img-responsive" src="images/s4.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="img-responsive" src="images/s5.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="solution_content">
+                        <h2>汽车发动机调节器</h2>
+                        <h3>测试新闻测试新闻测试新闻</h3>
+                        <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻</p>
+                        <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻</p>
+                    </div>
+                    <div class="solution_contact row">
+                        <div class="col-sm-4">
+                            <div class="solution_contact_btn">
+                                <div>技术在线</div>
+                                <div>在线咨询</div>
+                                <div>加盟渠道</div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="solution_contact_form clearfix">
+                                <input class="user" type="text" placeholder="姓名（必填）">
+                                <input type="email" placeholder="邮箱（必填）">
+                                <input type="tel" placeholder="电话（必填）">
+                                <input class="company" type="text" placeholder="公司名称（必填）">
+                                <input class="job" type="text" placeholder="在职岗位（必填）">
+                                <input class="trade" type="text" placeholder="所属行业（必填）">
+                                <textarea rows="6" placeholder="具体需求。。。。。。"></textarea>
+                                <input type="submit" value="发送">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-        <h2>PRODUCT</h2>
-    </div>
+    </section>
 
 </div>
-
-<!---->
-<div class="inblock  inbolck-service2">
-    <div class="page-cen">
-        <div class="service-list-con clearfix">
-            <div class="service-list service-text">
-                <div class="title">
-                    <h2>智能制造</h2>
-
-                </div>
-                <div class="text">
-                    <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测<br>
-                        试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻 <br>
-                        测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻<br>
-                        测试新闻测试新闻测试新闻
-                        测试新闻测试新闻
-                    </p>
-                </div>
-                <div class="more">
-                    <a href="">查看更多 &nbsp;></a>
-                </div>
-            </div>
-            <div class="service-list service-pic">
-                <div class="pic">
-                    <img src="images/fuwu001.jpg" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="inblock inbolck-service">
-    <div class="page-cen">
-        <div class="service-list-con clearfix">
-            <div class="service-list service-text">
-                <div class="title">
-                    <h2>标准化设备</h2>
-
-                </div>
-                <div class="text">
-                    <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测<br>
-                        试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻 <br>
-                        测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻<br>
-                        测试新闻测试新闻测试新闻
-                        测试新闻测试新闻
-                    </p>
-                </div>
-                <div class="more">
-                    <a href="">查看更多 &nbsp;></a>
-                </div>
-            </div>
-            <div class="service-list service-pic">
-                <div class="pic">
-                    <img src="images/fuwu001.jpg" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="inblock  inbolck-service2">
-    <div class="page-cen">
-        <div class="service-list-con clearfix">
-            <div class="service-list service-text">
-                <div class="title">
-                    <h2>自动化核心模块</h2>
-
-                </div>
-                <div class="text">
-                    <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测<br>
-                        试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻 <br>
-                        测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻<br>
-                        测试新闻测试新闻测试新闻
-                        测试新闻测试新闻
-                    </p>
-                </div>
-                <div class="more">
-                    <a href="">查看更多 &nbsp;></a>
-                </div>
-            </div>
-            <div class="service-list service-pic">
-                <div class="pic">
-                    <img src="images/fuwu001.jpg" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="inblock inbolck-service">
-    <div class="page-cen">
-        <div class="service-list-con clearfix">
-            <div class="service-list service-text">
-                <div class="title">
-                    <h2>相关耗材</h2>
-
-                </div>
-                <div class="text">
-                    <p>测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测<br>
-                        试新闻测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻 <br>
-                        测试新闻测试新闻测试新闻测试新闻测试新闻测试新闻<br>
-                        测试新闻测试新闻测试新闻
-                        测试新闻测试新闻
-                    </p>
-                </div>
-                <div class="more">
-                    <a href="">查看更多 &nbsp;></a>
-                </div>
-            </div>
-            <div class="service-list service-pic">
-                <div class="pic">
-                    <img src="images/fuwu001.jpg" />
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!--底部开始-->
 <footer>
     <div class="footer row">
@@ -608,10 +589,60 @@
     </div>
 </footer>
 
-
-
 <!--底部结束-->
 </body>
-<script src="js/v3.homepage.min-17d112246487eb8174381d85cdcae5ea.js"></script>
-
 </html>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/video.min.js"></script>
+<script src="js/videojs-ie8.min.js"></script>
+
+
+<script>
+    var myswiper = new Swiper('.acc');
+</script>
+<script>
+    var viewSwiper = new Swiper('.view .swiper-container', {
+        on: {
+            slideChangeTransitionStart: function(){
+                updateNavPosition();
+            },
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable :true,
+        },
+        touchAngle : 10,
+    })
+
+
+    var previewSwiper = new Swiper('.preview .swiper-container', {
+        visibilityFullFit: true,
+        slidesPerView: 'auto',
+        onlyExternal: true,
+        on:{
+            click:function(){
+                viewSwiper.slideTo(this.clickedIndex);
+            }
+        },
+
+    })
+
+    function updateNavPosition() {
+        $('.preview .active-nav').removeClass('active-nav');
+        var activeNav = $('.preview .swiper-slide').eq(viewSwiper.activeIndex).addClass('active-nav');
+        if(!activeNav.hasClass('swiper-slide-visible')) {
+            if(activeNav.index() > previewSwiper.activeIndex) {
+                var thumbsPerNav = Math.floor(previewSwiper.width / activeNav.width()) ;
+                previewSwiper.slideTo(activeNav.index() - thumbsPerNav);
+            } else {
+                previewSwiper.slideTo(activeNav.index());
+            }
+        }
+    }
+
+</script>
