@@ -2,12 +2,6 @@
 
 
 }
-
-@media (max-width: 1440px){
-
-
-}
-
 @media (max-width: 1360px) {
     .slide-grid-container {
         height: 660px;
@@ -25,31 +19,53 @@
     .ph-post1-wrapper .button {
         width: 8em;
     }
+    .service-text .text p{
+        width: 75%;
+    }
 }
     @media (max-width: 1200px) {
         .footer-left {
             display: none;
         }
-        .index3-right{
+
+        .index3-right {
             display: none;
         }
 
-    }
+        .one {
+            overflow-x: scroll;
+        }
 
-@media (max-width: 992px){
-.one{
-    overflow-x: scroll;
-}
-    .one ul{
-        width: 2000px;
+        .one ul {
+            width: 2000px;
+        }
+
+        .footer-left {
+            display: none;
+        }
+
+        .index3-right {
+            display: none;
+        }
+
+        .service-list-con {
+            padding: 30px 0;
+        }
+        .page-cen {
+            padding: 0 30px;
+        }
+        .service-list {
+            width: 100%;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .service-text .text {
+            margin: 10px 0;
+        }
+        .service-text .text p {
+            width: 100%;
+        }
     }
-    .footer-left{
-        display: none;
-    }
-    .index3-right{
-        display: none;
-    }
-}
 
 
 
@@ -93,6 +109,7 @@
     }
     .index4_top h2{
         font-size: 16px;
+        letter-spacing: 0px;
     }
     .index5_top {
         padding: 10px;
@@ -169,5 +186,43 @@
     }
     .qiyejianjie_img1{
         padding: 0;
+    }
+    .two ul li{
+        width: 240px;
+        height: 150px;
+    }
+    .two ul li a{
+        width: 240px;
+        height: 150px;
+    }
+    .Cooldog_container {
+        width: 100%;
+
+    }
+    .service-list-con {
+        padding: 30px 0;
+    }
+    .page-cen {
+        padding: 0 30px;
+    }
+    .service-list {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .service-text .text {
+        margin: 10px 0;
+    }
+    .service-text .text p {
+        width: 100%;
+    }
+    .xinwenlb_wenzi h4 {
+        font-size: 16px;
+    }
+    .xinwenlb_wenzi{
+        font-size: 12px;
+    }
+    .xinwenlb_box{
+        height: 160px;
     }
 }
