@@ -29,14 +29,14 @@ ul {
 .shaixuan_box1 .accordion{
     max-width: 100% ;
 }
-.list-title{
+.list-title1{
     display: inline-block;
     width: 100%;
     max-width: 250px;
     border-top: solid 1px #ccc;
     border-left: solid 1px #ccc;
     border-right: solid 1px #ccc;
-    background: #FFF;
+    background: #ffffff;
     text-align: center;
     height: 60px;
     line-height: 60px;
