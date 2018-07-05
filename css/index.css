@@ -86,7 +86,10 @@ header{
 .header ul li img{
     width: 100%;
 }
-
+.header1-img{
+    margin: 0 auto;
+    width: 100px;
+}
 /*<!--头部结束-->*/
 /*<!--内容开始-->*/
 /*<!--banner开始-->*/
@@ -178,7 +181,7 @@ header{
     text-align: center;
 }
 .swiper-slide h1{
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 80px;
     letter-spacing: 2px;
     color: #ffffff;
@@ -219,6 +222,7 @@ header{
 .index1{
     width: 100%;
 background: #e0f7ff;
+    position: relative;
 }
 .index1_box{
     width: 90%;
@@ -254,6 +258,42 @@ background: #e0f7ff;
 .index1_bottom ul li a{display:inline-block;width: 100%; height: 100%;position: relative;}
 .index1_bottom ul li a span{height:0;display:block;background:#234187;position:absolute;bottom:0;color:#fff;font-size:0px;}
 .index1_bottom ul li a:hover span{height:60px;width: 100%;font-size:20px;text-align:center;transition:all 0.7s;line-height: 60px;}
+.i-bofang{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    transition:all 0.7s;
+}
+.index1_bottom ul li a:hover .i-bofang{
+    opacity: 1;
+}
+.i-bofang i{
+    font-size: 50px;
+}
+.video-box{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: none;
+    background: rgba(0, 0, 0, 0.91);
+}
+.video-box .video-content{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 /*第一屏结束*/
 
@@ -292,6 +332,7 @@ background: #e0f7ff;
     margin: 0 auto;
 }
 .index2-oneli-box p{
+    font-size: 14px;
     margin: 20px;
     padding: 20px;
     border-top: 1px solid #eaeaea;
@@ -341,7 +382,8 @@ background: #e0f7ff;
     border: 1px solid #ffffff;
     margin: auto 0;
     margin-left: 40px;
-    padding:  45px 20px;
+    padding: 20px 10px;
+
 }
 .index3-zhebox{
     width: 100%;
@@ -679,7 +721,40 @@ footer{
     height: 100px;
     position: relative;
 }
-
+.footer-rightR-1{
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+.footer-rightR-2{
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.footer-rightR-3{
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+.footer-rightR-4{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.footer-rightR-5{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.footer-rightR-logobox img{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    margin: auto 0;
+}
+.footer_banquan{
+    text-align: center;color: #fff; line-height: 60px;position: absolute; left: 0; right: 0;margin: 0 auto;letter-spacing: 4px
+}
+.footer_jishizhichi{
+    text-align: right; color: #fff;float: right; line-height: 60px; letter-spacing: 4px
+}
 /*<!--底部结束-->*/
 .jishu{
     width: 100%;
@@ -711,8 +786,6 @@ footer{
 .xinwen-top{
     width: 80%;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 .hangye-box{
     width: 50%;
@@ -865,12 +938,12 @@ footer{
     margin: 0;
 }
 .heibiaoti h4{
-    font-size:14px;
+    font-size:20px;
 }
 .heibiaoti p{
-    font-size: 10px;
+    font-size: 12px;
 }
-.qiyewenhua1 .content{
+.qiyewenhua1 .content1{
     position: absolute;
     bottom:0;
 }
@@ -923,7 +996,8 @@ footer{
     margin: 0;
 }
 .heibiaoti2 h4{
-    font-size:14px;
+    margin: 0;
+    font-size:20px;
 }
 .heibiaoti2 p{
     font-size: 10px;
@@ -1080,7 +1154,7 @@ footer{
     display: block;
     position: relative;
     height: 3.5em;
-    width: 10em;
+    width: 8em;
     margin: .7em auto;
     overflow: hidden;
 }
@@ -1101,14 +1175,14 @@ footer{
     text-align: center;
     border-radius: 50px;
     border: 1px solid #595959;
-    padding: 1em 0; }
+    padding: 0.7em 0; }
 .ph-post1-wrapper .button:after {
     content: attr(data-title);
     width: 100%;
     background: #ffffff;
     color: #414141; }
 .ph-post1-wrapper .button > span > span {
-    width: 10em;
+    width: 8em;
     background: #2a2a2a;
     color: #ffffff; }
 .ph-post1-wrapper .button:hover > span {
@@ -1210,3 +1284,24 @@ canvas {
 }
 
 /*banner结束*/
+/*返回首页开始*/
+.fanhuishouye{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background: #234187;
+    bottom:100px ;
+    right: 100px;
+    z-index: 999;
+}
+.fanhuishouye a{
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    border: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 50px;
+}
+/*返回首页结束*/

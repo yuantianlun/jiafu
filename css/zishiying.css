@@ -6,14 +6,18 @@
     .slide-grid-container {
         height: 660px;
     }
-
+    .cell,.is-6{
+        padding-top: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .slide-grid-container .slide-grid-item a {
         background-size: auto 660px;
     }
 
     .ph-post1-wrapper .button:after, .ph-post1-wrapper .button > span > span {
 
-        padding: 0.7em 0;
+        padding: 0.5em 0;
     }
 
     .ph-post1-wrapper .button {
@@ -22,6 +26,7 @@
     .service-text .text p{
         width: 75%;
     }
+
 }
     @media (max-width: 1200px) {
         .footer-left {
@@ -65,9 +70,78 @@
         .service-text .text p {
             width: 100%;
         }
+        .footer-rightL{
+            margin-left: 20px;
+        }
+        .footer_banquan{
+            line-height: 30px;
+        }
+        .footer_jishizhichi{
+            float: none;
+            text-align: center;
+            line-height: 60px;
+        }
+        .index3-lbottom-dtbox{
+            padding: 5px;
+        }
+        .index3-lbottom-dtbox div div{
+            font-size: 16px;
+        }
+        .index3-lbottom-dtbox div p{
+            font-size: 12px;
+        }
     }
 
-
+@media (max-width: 1500px){
+    .footer-rightL{
+        margin-left: 13px;
+    }
+    .footer-rightR-1{
+        font-size: 16px;
+    }
+    .footer-rightR-2{
+        font-size: 14px;
+    }
+    .footer-rightR-3{
+        font-size: 13px;
+    }
+    .footer-rightR-4{
+        font-size: 13px;
+    }
+    .footer-rightR-5{
+        font-size: 13px;
+    }
+    .wenhua ul li a{
+        padding-left: 50px;
+    }
+    .qiyewenhua1{
+        width: 50%;
+    }
+    .qiyewenhua2{
+        width: 50%;
+    }
+    .heibiaoti{
+        top: 20px;
+    }
+    .baiwenzi{
+        font-size: 50px;
+    }
+    .heibiaoti2{
+        top: 20px;
+    }
+    .baiwenzi2{
+        font-size: 50px;
+    }
+    .heibiaoti h4{
+        font-size: 15px;
+    }
+    .heibiaoti2 h4{
+        font-size: 15px;
+    }
+    .hangye-box{
+        padding-top: 10px;
+    }
+}
 
 @media (max-width: 768px){
     .index-about{
@@ -224,5 +298,65 @@
     }
     .xinwenlb_box{
         height: 160px;
+    }
+    .footer-rightL{
+        margin-left: 20px;
+    }
+    .footer-rightR-1{
+        font-size: 14px;
+    }
+    .footer-rightR-2{
+        font-size: 12px;
+    }
+    .footer-rightR-3{
+        font-size: 12px;
+    }
+    .footer-rightR-4{
+        font-size: 12px;
+    }
+    .footer-rightR-5{
+        font-size: 12px;
+    }
+    .footer_banquan{
+        line-height: 30px;
+    }
+    .footer_jishizhichi{
+        float: none;
+        text-align: center;
+        line-height: 60px;
+    }
+    .qiyewenhua1{
+        width: 90%;
+    }
+    .baiwenzi{
+        font-size: 40px;
+    }
+    .heibiaoti{
+        top: 12px;
+    }
+    .heibiaoti h4{
+        font-size: 14px;
+    }
+    .qiyewenhua2{
+        width: 90%;
+    }
+    .baiwenzi2{
+        font-size: 40px;
+    }
+    .heibiaoti2{
+        top: 12px;
+    }
+    .heibiaoti2 h4{
+        font-size: 14px;
+    }
+    .wenhua ul li a{
+        padding-left: 18px;
+    }
+    .wenhua ul li a div div{
+        font-size: 14px;
+        margin: auto 35px;
+    }
+    .hangye-box{
+        padding-top: 10px;
     }
 }

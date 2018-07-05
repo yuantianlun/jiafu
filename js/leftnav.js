@@ -23,8 +23,16 @@ $(function() {
 		}
 	};
 
+
 	var accordion = new Accordion($('#accordion'), false);
-	$('.submenu li').click(function () {
+	$('.submenu li input').click(function () {
 		$(this).addClass('current').siblings('li').removeClass('current');
+		if ($(this).prop("checked")==true){
+            console.log($(this).value);
+            $(".y_chanpin_box ul li").remove()
+		}else {
+			return;
+		}
 	});
+
 });
