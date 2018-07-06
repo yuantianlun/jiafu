@@ -1242,6 +1242,8 @@
         simulateTouch: !1,
         prevButton: ".swiper-control-pre .control-btn",
         nextButton: ".swiper-control-next .control-btn",
+        pagination: ".swiper-pagination-bullet",
+
         onSlideChangeEnd: function (e) {
             a.scrollTo(e.activeIndex)
         }

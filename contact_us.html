@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/iconfont.css">
 
 
-    <link rel="stylesheet" href="css/video-js.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layui.css">
 
 
 
@@ -475,8 +475,8 @@
 <!--头部结束-->
 <!--内容开始-->
 <!--banner开始-->
-<div class="index-about" style="height: 600px;">
-    <div class="index-about-video" style="height: 600px;">
+<div class="index-about">
+    <div class="index-about-video">
         <div class="controls">
             <div class="functions btn-group"></div>
             <div class="rotate btn-group">
@@ -492,13 +492,13 @@
         <div class="swiper-container acc" style="height: 50%; position: absolute;top: 0;bottom: 0;margin: auto 0;">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <h1 style="font-size: 1.5em">做值得信赖的智能制造合作伙伴</h1>
+                    <h1>做值得信赖的智能制造合作伙伴</h1>
                 </div>
                 <div class="swiper-slide">
-                    <h1 style="font-size: 1.5em">做值得信赖的智能制造合作伙伴</h1>
+                    <h1>做值得信赖的智能制造合作伙伴</h1>
                 </div>
                 <div class="swiper-slide">
-                    <h1 style="font-size: 1.5em">做值得信赖的智能制造合作伙伴</h1>
+                    <h1>做值得信赖的智能制造合作伙伴</h1>
                 </div>
             </div>
         </div>
@@ -510,6 +510,7 @@
         <img src="images/shubiao.png" alt="">
     </div>
 </div>
+
 <script>
     var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -753,7 +754,17 @@
     init(document.querySelector('canvas'));
 </script>
 <!--banner结束-->
-
+<div style="width: 100%;background: #e0f7ff;">
+    <div style="width: 85%; margin: 0 auto;padding-top: 20px">
+        <span class="layui-breadcrumb" style="visibility: inherit">
+          <a href="/">首页</a>
+            <span>&gt;</span>
+          <a href="/demo/">演示</a>
+            <span>&gt;</span>
+          <a><cite>导航元素</cite></a>
+        </span>
+    </div>
+</div>
 <div class="main">
     <section id="contact">
         <div class="container-fluid">

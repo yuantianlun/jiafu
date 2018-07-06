@@ -32,7 +32,7 @@ ul {
 .list-title1{
     display: inline-block;
     width: 100%;
-    max-width: 250px;
+    /*max-width: 250px;*/
     min-width: 200px;
     border-top: solid 1px #ccc;
     border-left: solid 1px #ccc;
@@ -50,7 +50,7 @@ ul {
 
 .accordion {
     width: 100%;
-    max-width: 250px;
+    /*max-width: 250px;*/
     min-width: 200px;
 
     border: solid 1px #ccc;
