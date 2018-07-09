@@ -639,7 +639,7 @@ background: #e0f7ff;
 .two{margin:0;height:100%;width:100%;overflow:hidden;position:relative; }
 .two ul{height:240px;width:100000px;position:absolute;left:0;} /*ul width的宽不能过小*/
 .two ul li{display:block;float:left;width: 340px;margin:5px;height:240px;border-radius:5px;position:relative;}
-.two ul li a{display:inline-block;height:240px;width: 340px;background: url("../images/a1.png")center no-repeat}
+.two ul li a{display:inline-block;height:200px;width: 340px;background: url("../images/a1.png")center no-repeat}
 .two ul li img{width: 50%;display:block;position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;}
 .two ul li a span{height:0;display:block;background:#234187;position:absolute;bottom:0;color:#fff;font-size:0px;}
 .two ul li a:hover span{height:240px;width: 340px;font-size:20px;text-align:center;transition:all 0.7s;}
@@ -1162,7 +1162,7 @@ footer{
 .service-text .text p {
     font-size: 14px;
     color: #333;
-    width: 50%;
+    width: 60%;
 }
 .inbolck-service2 .service-pic {
     float: left;
