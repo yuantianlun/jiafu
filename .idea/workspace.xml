@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c8ca944-5916-4436-9e32-2689d20520b6" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/images/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/swiper.min.css" afterDir="false" />
-    </list>
+    <list default="true" id="5c8ca944-5916-4436-9e32-2689d20520b6" name="默认" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -355,34 +349,34 @@
       <find>mb</find>
       <find>min</find>
       <find>@media</find>
-      <find />
+      <find>col-sm-12 col-sx-12 col-md-6</find>
       <find>list-title</find>
       <find>video</find>
       <find>col-xs-none</find>
-      <find />
-      <find />
-      <find />
-      <find />
+      <find>col-xs-12 col-sm-6 col-md-4 col-lg-4</find>
+      <find>input type=&quot;checkbox&quot;</find>
+      <find>&lt;input type=&quot;checkbox&quot;  class=&quot;checkbox-custom&quot; value=&quot;&quot;&gt;</find>
+      <find>&lt;input type=&quot;checkbox&quot;  class=&quot;checkbox-custom&quot;&gt;</find>
       <find>icon-youjiantou</find>
-      <find />
+      <find>&lt;li class=&quot;col-xs-12 col-sm-6 col-md-3 col-lg-3&quot;&gt;</find>
       <find>swiper-slide</find>
       <find>index-about-video</find>
-      <find />
-      <find />
-      <find />
-      <find />
+      <find>style=&quot;font-size: 1.5em&quot;</find>
+      <find>index_h1 h</find>
+      <find>&lt;a href=&quot;&quot;&gt;查看更多 &amp;nbsp;&gt;&lt;/a&gt;</find>
       <find>pagination</find>
       <find>swiper-control-pre</find>
       <find>pagination-bullet</find>
-      <find />
+      <find>.dui-swiper-container .swiper-pagination .swiper-pagination-bullet</find>
       <find>slide-control-pre</find>
+      <find>.swiper-button-prev.swiper</find>
     </findStrings>
     <replaceStrings>
       <replace>max</replace>
-      <replace />
-      <replace />
+      <replace>col-sm-12 col-sx-12 col-md-12 col-lg-6</replace>
+      <replace>&lt;input type=&quot;checkbox&quot;  class=&quot;checkbox-custom&quot; value=&quot;&quot;&gt;</replace>
       <replace>icon-icon</replace>
-      <replace />
+      <replace>&lt;a href=&quot;chanpi.html&quot;&gt;查看更多 &amp;nbsp;&gt;&lt;/a&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -546,12 +540,12 @@
       <workItem from="1530667079051" duration="18087000" />
       <workItem from="1530752566045" duration="18855000" />
       <workItem from="1530839053788" duration="18373000" />
-      <workItem from="1531098097530" duration="20080000" />
+      <workItem from="1531098097530" duration="20520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142683000" />
+    <option name="totallyTimeSpent" value="143123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
