@@ -812,10 +812,10 @@ footer{
     margin: auto 0;
 }
 .footer_banquan{
-    text-align: center;color: #fff; line-height: 60px;position: absolute; left: 0; right: 0;margin: 0 auto;letter-spacing: 4px
+    text-align: center;color: #fff; line-height: 60px;position: absolute; left: 0; right: 0;margin: 0 auto;letter-spacing: 4px;font-size: 13px;
 }
 .footer_jishizhichi{
-    text-align: right; color: #fff;float: right; line-height: 60px; letter-spacing: 4px
+    text-align: right; color: #fff;float: right; line-height: 60px; letter-spacing: 4px;font-size: 13px;
 }
 /*<!--底部结束-->*/
 .jishu{
@@ -1360,6 +1360,26 @@ canvas {
     z-index: 999;
 }
 .fanhuishouye a{
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    border: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 50px;
+}
+.fanhuidingbu{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background: #234187;
+    bottom:40px ;
+    right: 100px;
+    z-index: 999;
+    cursor: pointer;
+}
+.fanhuidingbu a{
     color: #ffffff;
     position: absolute;
     top: 0;

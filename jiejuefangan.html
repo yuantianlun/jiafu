@@ -1078,6 +1078,10 @@
     <div class="jishu">
         <div class="jishu_box">
             <div class="footer_banquan">版权所有@嘉孚朗机器人设备有限公司</div>
+            <div style="width:300px;margin:0 auto; padding:20px 0; float: left">
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32050602010456" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="images/gonganbeian.png" style="float:left; width: 20px;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">苏公网安备 32050602010456号</p></a>
+            </div>
+
             <span class="footer_jishizhichi">技术支持：华宸科技</span>
         </div>
     </div>
@@ -1086,9 +1090,65 @@
 <div class="fanhuishouye">
     <a href="index.html">首页</a>
 </div>
-
+<div class="fanhuidingbu">
+    <a href="javascript:;">顶部</a>
+</div>
 <!--底部结束-->
 </body>
 <script src="js/v3.homepage.min-17d112246487eb8174381d85cdcae5ea.js"></script>
 
 </html>
+<script>
+    $('.submenu li input').click(function () {
+        $(this).addClass('current').siblings('li').removeClass('current');
+        if ($(this).prop("checked")==true){
+            console.log($(this).value);
+            $.ajax()
+
+
+            $(".list-unstyled li").remove();
+            var str=`
+                       <li>
+                            <div class="bnr-tnl-thumbnail-outer">
+                                <a href="" target="_self">
+                                    <div class="bnr-tnl-thumbnail-box">
+                                        <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
+                                             style="visibility: visible;"><img
+                                                src="images/q3x-laser-contrast-sensor.img.png" alt=""
+                                                style="max-width: 100%;"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="bnr-tnl-copy-box">
+                                <h3 class="hidden-xs hidden-sm">
+                                    <a href="" target="_self">Q3X系列激光对比度传感器 </a></h3>
+                                <a href=""
+                                   target="_self">
+                                    <div class="bnr-thumbnail bnr-tn-large-landscape bnr-tn-sized"
+                                         style="visibility: visible;"><img
+                                            src="images/q3x-laser-contrast-sensor.img.png"
+                                            alt=""
+                                            style="max-width: 100%;"></div>
+                                </a>
+                                <h3 class="hidden-md hidden-lg"><a
+                                        href=""
+                                        target="_self">Q3X系列激光对比度传感器 </a></h3>
+                                <p>坚固耐用的高速传感器，用于检测存在/不存在、定位和色标检测等较有挑战性的检测应用，此类应用的特点是对比度差异较小。</p>
+                                <div class="row button-row">
+                                    <div class="bnr-cmpt col-xs-12">
+                                        <a class="btn btn-secondary-light btn-sm" role="button"
+                                           href=""
+                                           target="_self">查看更多</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+            `;
+            $(".list-unstyled").append(str);
+        }else {
+            return;
+        }
+    });
+
+</script>
