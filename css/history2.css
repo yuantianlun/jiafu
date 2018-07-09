@@ -22,7 +22,7 @@
 	border-color:rgba(0,0,0,0);
 }
 .clock{display:block;}
-#circle:hover {border-color:rgba(255,255,255,0.6);background-color:#fdb700;}
+#circle:hover {border-color:#337ab7;background-color:#337ab7;}
 #circle:hover .clock{display:block;}
 #circle:hover .circlecontent{display:none;}
 #circle span{font-size:18px;color:#b0b0b0;}
@@ -54,7 +54,7 @@
 .year{font-size:12px;color:#000;margin-right:10px;}
 .point{width:55px;height:55px;position:absolute;top:0;left:22%;background:url(../img/about/point.png) no-repeat 0px 18px;overflow:hidden;}
 .point b{
-	height:16px;width:16px;background:#fff;display:block;margin:17px 0 0 19px;border-radius:18px;border:2px solid #fdb700;
+	height:16px;width:16px;background:#fff;display:block;margin:17px 0 0 19px;border-radius:18px;border:2px solid ##337ab7;
 	-webkit-transition:all 0.1s linear;
 	-moz-transition:all 0.1s linear;
 	-o-transition:all 0.1s linear;
@@ -65,8 +65,8 @@
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
-.thiscur .point b{border:7px solid rgba(254, 182, 0, 0.6);margin:12px 0px 0px 14px;border-radius:52px;}
-.thiscur .histt a{color:#fdb700;}
+.thiscur .point b{border:7px solid #337ab7;margin:12px 0px 0px 14px;border-radius:52px;}
+.thiscur .histt a{color:#337ab7;}
 .histt a{
 	font-size:24px;color:#606060;
 	-webkit-transition:all 0.3s linear;

@@ -21,10 +21,13 @@
     }
 
     .ph-post1-wrapper .button {
-        width: 8em;
+        width: 5.5em;
     }
     .service-text .text p{
         width: 75%;
+    }
+    .ph-post1-wrapper .button > span > span{
+        width: 5.5em;
     }
 
 }
@@ -326,7 +329,7 @@
         font-size: 12px;
     }
     .xinwenlb_box{
-        height: 160px;
+        /*height: 160px;*/
     }
     .footer-rightL{
         margin-left: 20px;
@@ -414,6 +417,9 @@
         padding-bottom: 50px;
     }
     .fanhuishouye{
+        right: 0;
+    }
+    .fanhuidingbu{
         right: 0;
     }
     .index_h1 h1{
