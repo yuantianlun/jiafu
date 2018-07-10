@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/v3.base.min-4fb5e4ee043e726d7151e25b2af84b20.css">
-    <link rel="stylesheet" href="css/video-js.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/c.css">
@@ -16,10 +15,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/iconfont.css">
     <link rel="stylesheet" href="css/layui.css">
+    <link rel="stylesheet" href="css/video-js.css">
 
     <script src="js/jquery.min.js"></script>
-    <script src="js/video.min.js"></script>
-    <script src="js/videojs-ie8.min.js"></script>
+    <!--<script src="js/video.min.js"></script>-->
+    <!--<script src="js/videojs-ie8.min.js"></script>-->
     <script src="js/swiper.min.js"></script>
     <script src="js/headlibs.js"></script>
 
@@ -83,7 +83,7 @@
 
                 </div>
             </li>
-            <li class="nav-item has-meganav" role="presentation">
+            <li class="nav-item has-meganav" style="list-style: block;" role="presentation">
                 <div class="nav-item-inner">
                     <a href="chanpinzhongxin.html" class="header_ull_a">
                         产品中心
@@ -493,7 +493,7 @@
 <div class="index-about index-about1">
     <div class="index-about-video index-about-video1">
         <div class="video">
-            <video id="my-video" class="video-js" controls preload="auto" x-webkit-airplay="true" webkit-playsinline="true"playsinline="true" poster="" loop="loop">
+            <video id="my-video" class="video-js" muted="muted">
                 <source src="view/vio.mp4" type="video/mp4">
             </video>
         </div>
@@ -528,12 +528,10 @@
     </div>
 </div>
 <script type="text/javascript">
-    var myPlayer = videojs('#my-video');
-    videojs("#my-video").ready(function () {
-        var myPlayer = this;
-        myPlayer.play();
-        myPlayer.width(1920);
+    $(function () {
+        $('#my-video')[0].play();
     });
+
 </script>
 <!--banner结束-->
 <div style="width: 100%;background: #e0f7ff;">
