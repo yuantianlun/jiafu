@@ -59,7 +59,7 @@ header{
     height: 100px;
     margin: 0 auto;
 }
-.header ul{
+.header .nav{
     padding-top: 20px;
     height: 100%;
     display: -webkit-flex;
