@@ -104,7 +104,7 @@ header{
     width: 100%;
     height: 600px;
     overflow: hidden;
-    background: #00061a;
+    background: #001137;
 }
 .index-about-video .video {
     position: absolute;
@@ -294,7 +294,7 @@ background: #e0f7ff;
 .index1_top{
     width: 100%;
     height: 18%;
-    padding: 45px 0;
+    padding: 30px 0;
 }
 .index1_top h3{
     font-size: 24px;
@@ -616,7 +616,7 @@ background: #e0f7ff;
 .index4_top{
     width: 100%;
     height: 18%;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .index4_top h3{
     font-size: 24px;
@@ -653,7 +653,7 @@ background: #e0f7ff;
     width: 100%;
     height: auto;
     background: #e0f7ff;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 .index5-box{
     width: 100%;
@@ -662,7 +662,7 @@ background: #e0f7ff;
 .index5_top{
     width: 100%;
     height: 18%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .index5_top h3{
     font-size: 24px;

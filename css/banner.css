@@ -5575,13 +5575,13 @@ body.no-cookie li.show-no-cookie a {
       margin-bottom: 0.5em; }
       @media (min-width: 550px) {
         .meganav-view-wrap .meganav-lists .list-wrap {
-          width: 25%; } }
+          width: 20%; } }
       @media (min-width: 768px) {
         .meganav-view-wrap .meganav-lists .list-wrap {
-          width: 25%; } }
+          width: 20%; } }
       @media (min-width: 1200px) {
         .meganav-view-wrap .meganav-lists .list-wrap {
-          width: 25%; } }
+          width: 20%; } }
     .meganav-view-wrap .meganav-lists .list-title {
       margin-top: 0;
       margin-left: 1em;
@@ -5644,14 +5644,17 @@ body.no-cookie li.show-no-cookie a {
 
 /*************** Hover styles */
 .has-meganav .nav-item-inner:hover .meganav-view-wrap {
-  width: 100%;
+  width: 80%;
   top: 100px;
   left: 0;
+  right: 0;
+  margin: 0 auto;
   opacity: 1;
   transition: width 1ms 395ms,
  top 1ms 395ms,
  left 1ms 395ms,
- opacity 150ms 400ms; }
+ opacity 150ms 400ms;
+}
 .nav-item-inner:hover{
   border-bottom: 2px solid #00a2de;
   transition: all 0.5s;
