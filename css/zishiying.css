@@ -2,6 +2,9 @@
     .one {
             overflow-x: scroll;
         }
+    .one ul {
+            width: 2000px;
+        }
     .slide-grid-container {
         height: 660px;
     }
@@ -110,9 +113,7 @@
 
         
 
-        .one ul {
-            width: 2000px;
-        }
+        
 
         .footer-left {
             display: none;
