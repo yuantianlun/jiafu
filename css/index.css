@@ -52,7 +52,7 @@ header{
     width: 100%;
     height: 100px;
     z-index: 99;
-    border-bottom: 1px solid #fff;
+    /*border-bottom: 1px solid #fff;*/
 }
 .header{
     width: 90%;
@@ -77,13 +77,20 @@ header{
 .nav-item-inner{
     height: 100%;
 }
-
+.navDJ{
+    border-bottom: 2px solid #00a2de;
+}
 .header_ull_a{
     line-height: 60px;
     text-align: center;
     color: #ffffff;
 }
 .header ul li img{
+    position: absolute;
+    top:10px;
+    left:0;
+    right:0;
+    margin: 0 auto;
     width: 100%;
 }
 .header1-img{
@@ -159,7 +166,7 @@ header{
     height: 100%;
     top: 0;
     left: 0;
-    /*background: #000000a1;*/
+    background: rgba(1,0,15,.85);
     z-index: 10;
 }
 .swiper-container-box{
@@ -191,10 +198,11 @@ header{
 .swiper-slide h4{
     letter-spacing: 2px;
     color: #ffffff;
+    font-size:24px;
 
 }
 .shubiao{
-    width: 30px;
+    width: 20px;
     height: 50px;
     position: absolute;
     bottom: 20px;
@@ -294,19 +302,19 @@ background: #e0f7ff;
 .index1_top{
     width: 100%;
     height: 18%;
-    padding: 30px 0;
+    padding: 15px 0;
 }
 .index1_top h3{
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     letter-spacing: 4px
 }
 .index1_yinying{
     width: 230px;
-    margin: 10px auto;
+    margin: 2px auto;
 }
 .index1_top h2{
-    font-size: 22px;
+    font-size: 14px;
     text-align: center;
     letter-spacing: 5px
 }
@@ -315,7 +323,7 @@ background: #e0f7ff;
     height: 80%;
 }
 .index1_bottom ul li{
-    padding: 35px;
+    padding: 25px;
 }
 .index1_bottom ul li a{display:inline-block;width: 100%; height: 100%;position: relative;}
 .index1_bottom ul li a span{height:0;display:block;background:#234187;position:absolute;bottom:0;color:#fff;font-size:0px;}
@@ -368,9 +376,9 @@ background: #e0f7ff;
 }
 .one{margin:0;height:100%;width:100%;overflow:hidden;position:relative; }
 .one ul{height:240px;width:100%;position:absolute;left:0;} /*ul width的宽不能过小*/
-.one ul li{display:block;float:left;width:300px; height:240px;border-radius:5px;position:relative;}
-.one ul li a{display:inline-block;height:240px;width: 100%;background: url("../images/a1.png")center no-repeat}
-.one ul li img{width: 50%;display:block;position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;}
+.one ul li{display:block;float:left;width:380px; height:240px;border-radius:5px;position:relative;}
+.one ul li a{display:inline-block;height:240px;width: 100%;}
+.one ul li img{width: 20%;display:block;position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;}
 /*.one ul li a span{height:0;display:block;background:#234187;position:absolute;bottom:0;color:#fff;font-size:0px;}*/
 /*.one ul li a:hover span{height:240px;width: 100%;font-size:20px;text-align:center;transition:all 0.7s;}*/
 .one ul li a .index2-oneli-bt{position: absolute;bottom: 10px;left: 0;right: 0;margin: 10px auto;text-align: center;font-size: 20px}
@@ -409,7 +417,7 @@ background: #e0f7ff;
 /*第三屏开始*/
 .index3{
     width: 100%;
-
+padding-top: 30px;
     background: #e0f7ff;
 }
 .index3-box{
@@ -420,7 +428,8 @@ background: #e0f7ff;
 .index3-left{
     width: 50%;
     float: left;
-    padding: 100px 0;
+    padding: 50px 0;
+    padding-top: 80px;
 }
 .index3-ltop,.index3-lbottom{
     width: 100%;
@@ -468,58 +477,61 @@ background: #e0f7ff;
 }
 .index3-lan{
     width: 100%;
-    height: 100px;
+    height: 60px;
 }
 .index3-lanTiao{
     float: left;
     width: 8px;
-    height: 100px;
+    height: 60px;
     background: #234187;
 }
 .index3-lanTiaor{
     float: right;
     width: 8px;
-    height: 100px;
+    height: 60px;
     background: #234187;
 }
 .index3-lanr h3{
-    font-size: 28px;
+    font-size: 22px;
     padding-right: 30px;
-    line-height: 60px;
+    line-height: 40px;
     text-align: right;
 }
 .index3-lanr h5{
-    font-size: 22px;
+    font-size: 14px;
     padding-right: 30px;
-    line-height: 20px;
+    line-height: 0;
     text-align: right;
+    margin-top: 10px;
 }
 .index3-lan h3{
-    font-size: 28px;
-    padding-left: 30px;
-    line-height: 60px;
-}
-.index3-lan h5{
     font-size: 22px;
     padding-left: 30px;
-    line-height: 20px;
+    line-height: 40px;
+}
+.index3-lan h5{
+    font-size: 14px;
+    padding-left: 30px;
+    line-height: 0;
+    margin-top:10px;
 }
 .index3-ltop p{
-    padding: 30px;
-    margin-top: 30px;
+    padding: 0 30px;
     font-size: 16px;
-    letter-spacing: 5px;
-    line-height: 30px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    padding-bottom: 15px;
 }
 .index3-right{
     width: 50%;
     height: auto;
     float: left;
+    padding-top: 30px;
 }
 .cell.is-6 {
     flex-basis: 50%;
     max-width: 100%;
-    padding: 100px;
+    padding: 50px;
 }
 .cell {
     box-sizing: border-box;
@@ -619,16 +631,16 @@ background: #e0f7ff;
     padding-top: 40px;
 }
 .index4_top h3{
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     letter-spacing: 4px
 }
 .index4_yinying{
     width: 230px;
-    margin: 10px auto;
+    margin: 2px auto;
 }
 .index4_top h2{
-    font-size: 22px;
+    font-size: 14px;
     text-align: center;
     letter-spacing: 5px
 }
@@ -639,7 +651,7 @@ background: #e0f7ff;
 .two{margin:0;height:100%;width:100%;overflow:hidden;position:relative; }
 .two ul{height:240px;width:100000px;position:absolute;left:0;} /*ul width的宽不能过小*/
 .two ul li{display:block;float:left;width: 340px;margin:5px;height:240px;border-radius:5px;position:relative;}
-.two ul li a{display:inline-block;height:200px;width: 340px;background: url("../images/a1.png")center no-repeat}
+.two ul li a{display:inline-block;height:200px;width: 340px;}
 .two ul li img{width: 50%;display:block;position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;}
 .two ul li a span{height:0;display:block;background:#234187;position:absolute;bottom:0;color:#fff;font-size:0px;}
 .two ul li a:hover span{height:240px;width: 340px;font-size:20px;text-align:center;transition:all 0.7s;}
@@ -665,16 +677,16 @@ background: #e0f7ff;
     padding-bottom: 20px;
 }
 .index5_top h3{
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     letter-spacing: 4px
 }
 .index5_yinying{
     width: 230px;
-    margin: 10px auto;
+    margin: 2px auto;
 }
 .index5_top h2{
-    font-size: 22px;
+    font-size: 14px;
     text-align: center;
     letter-spacing: 5px
 }
@@ -699,15 +711,15 @@ background: #e0f7ff;
     color: #414141;
     font-size: 14px;
     text-align: left;
-    margin-top: 15px;
+    margin-top: 10px;
     letter-spacing: 2px;
     font-family: "Hei";
 }
 .news_wenzi h6{
     color: #414141;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
-    margin:10px 0;
+    margin:4px 0;
     font-family: "Hei";
 }
 
@@ -717,7 +729,7 @@ background: #e0f7ff;
 /*<!--底部开始-->*/
 footer{
     position: relative;
-    border-top:2px solid #464646  ;
+    border-top:1px solid #929292  ;
     width: 100%;
     background: #e0f7ff;
 }
@@ -734,7 +746,7 @@ footer{
 .footer-left-ul{
     width: 100%;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 80px;
     /*display: flex;*/
     /*justify-content: space-around;*/
 }
@@ -754,7 +766,7 @@ footer{
 .footer-left-ul li div{
     line-height: 24px;
     font-size: 14px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 .footer-left-ul-ol{
     width: 100%;
@@ -763,7 +775,7 @@ footer{
     flex-direction: column-reverse;
 }
 .footer-rightL{
-    padding-top: 100px;
+    padding-top: 80px;
     float: left;
     margin-left: 80px;
 }
@@ -774,30 +786,31 @@ footer{
 }
 .footer-rightL-wenzi{
     text-align: center;
+    padding-top: 5px;
 }
 .footer-rightR{
     float: right;
     text-align: right;
 }
 .footer-rightR-logobox{
-    height: 100px;
+    height: 80px;
     position: relative;
 }
 .footer-rightR-1{
-    font-size: 20px;
-    letter-spacing: 7px;
+    font-size: 14px;
+    letter-spacing: 3px;
 }
 .footer-rightR-2{
-    font-size: 17px;
-    letter-spacing: 2px;
+    font-size: 13px;
+    letter-spacing: 0;
 }
 .footer-rightR-3{
-    font-size: 14px;
-    letter-spacing: 4px;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 .footer-rightR-4{
-    font-size: 14px;
-    letter-spacing: 2px;
+    font-size: 13px;
+    letter-spacing: 0;
 }
 .footer-rightR-5{
     font-size: 14px;
@@ -812,15 +825,15 @@ footer{
     margin: auto 0;
 }
 .footer_banquan{
-    text-align: center;color: #fff; line-height: 60px;position: absolute; left: 0; right: 0;margin: 0 auto;letter-spacing: 4px;font-size: 13px;
+    text-align: center;color: #fff; line-height: 40px;position: absolute; left: 0; right: 0;margin: 0 auto;letter-spacing: 4px;font-size: 13px;
 }
 .footer_jishizhichi{
-    text-align: right; color: #fff;float: right; line-height: 60px; letter-spacing: 4px;font-size: 13px;
+    text-align: right; color: #fff;float: right; line-height: 40px; letter-spacing: 4px;font-size: 13px;
 }
 /*<!--底部结束-->*/
 .jishu{
     width: 100%;
-    height: 60px;
+    height: 40px;
     background: #234187;
 }
 .jishu_box{
@@ -888,6 +901,7 @@ footer{
 }
 .xinwenlb_box{
     width: 100%;
+    position: relative;
     /*height: 160px;*/
     overflow: hidden;
     margin-bottom: 5%;
@@ -909,20 +923,21 @@ footer{
 .xinwenlb_wenzi{
     float: left;
     height: 100%;
-
     width: 65%;
     padding: 5%;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 3px;
 }
 .xinwenlb_wenzi h4{
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 3px;
 
 }
 .MORE{
     text-align: right;
-
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 /*新闻结束*/
 
@@ -1099,19 +1114,20 @@ footer{
     width: 100%;
 }
 .y_chanpin_box ul li{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .y-cahnpibox{
-    border: 1px solid #595959;
+    /*border: 1px solid #595959;*/
+    background: rgb(250,250,250);
 }
 .y-chanpiimgbox{
     width: 100%;
-    border-bottom: 1px solid #595959;
+    border-bottom: 1px solid #2d3192;
 }
 .y-chanpiwenzibox{
     width: 100%;
-    padding: 30px 0;
-    border-top: 4px solid #2d3192;
+    padding: 15px 0;
+    /*border-top: 4px solid #2d3192;*/
     text-align: center;
     font-size: 16px;
 }
@@ -1163,6 +1179,7 @@ footer{
     font-size: 14px;
     color: #333;
     width: 60%;
+    line-height:24px;
 }
 .inbolck-service2 .service-pic {
     float: left;
@@ -1240,16 +1257,17 @@ footer{
     display: block;
     text-align: center;
     border-radius: 50px;
-    border: 1px solid #595959;
+    /*border: 1px solid #595959;*/
+    box-shadow: 0px 2px 0px rgb(230,230,230);
     padding: 0.7em 0; }
 .ph-post1-wrapper .button:after {
     content: attr(data-title);
     width: 100%;
     background: #ffffff;
-    color: #414141; }
+    color: #234187; }
 .ph-post1-wrapper .button > span > span {
     width: 8em;
-    background: #2a2a2a;
+    background: #234187;
     color: #ffffff; }
 .ph-post1-wrapper .button:hover > span {
     width: 100%; }
@@ -1272,7 +1290,7 @@ footer {
     font-family: Helvetica, Arial, sans-serif; }
 
 .ph-post1-wrapper .buttonDJ:after{
-    background: #2a2a2a;
+    background: #234187;
     color: #ffffff;
 }
 
@@ -1396,4 +1414,13 @@ canvas {
 
 .account-l{
     margin-bottom: 50px;
+}
+
+
+.fenyebox{
+    width:100%;
+}
+.fenye{
+    width:50%;
+    margin:0 auto;
 }

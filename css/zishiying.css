@@ -1,5 +1,69 @@
 @media (max-width: 1680px){
+    .slide-grid-container {
+        height: 660px;
+    }
+    .index-about{
+        height:450px;
+    }
+    .index-about-video{
+        height: 450px;
+    }
+    .swiper-slide h1{
+        padding-top: 55px;
+        font-size: 28px;
+        margin:0;
+    }
+    .ph-post1-wrapper .button:after, .ph-post1-wrapper .button > span > span{
+        font-size: 22px;
+    }
+    .cell,.is-6{
+        padding-top: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .slide-grid-container .slide-grid-item a {
+        background-size: auto 660px;
+    }
 
+    .ph-post1-wrapper .button:after, .ph-post1-wrapper .button > span > span {
+
+        padding: 0.5em 0;
+    }
+
+    .ph-post1-wrapper .button {
+        width: 6.5em;
+    }
+    .service-text .text p{
+        width: 75%;
+    }
+    .ph-post1-wrapper .button > span > span{
+        width: 7em;
+    }
+    .index3-lbottom-dtbox div div{
+        font-size: 16px;
+    }
+    .index3-lbottom-dtbox div p{
+        font-size: 14px;
+    }
+    .index-about-video1{
+        height:750px;
+    }
+    .index-about1{
+        height:750px;
+    }
+    .index-about-video1 .video-js{
+        height: 64%;
+    }
+    .index_h1 h1{
+        padding-top:110px;
+        padding-bottom:60px;
+    }
+    .slide-grid-container .slide-grid-item a{
+        background-size:auto 620px;
+    }
+    .slide-grid-container{
+        height:620px;
+    }
 
 }
 @media (max-width: 1360px) {
@@ -29,6 +93,7 @@
     .ph-post1-wrapper .button > span > span{
         width: 5.5em;
     }
+
 
 }
     @media (max-width: 1200px) {
@@ -128,16 +193,23 @@
         margin-left: 13px;
     }
     .footer-rightR-1{
-        font-size: 16px;
+        font-size: 14px;
+        letter-spacing: 3px;
     }
     .footer-rightR-2{
-        font-size: 14px;
+        font-size: 13px;
+        letter-spacing: 0;
+
     }
     .footer-rightR-3{
         font-size: 13px;
+        letter-spacing: 1px;
+
     }
     .footer-rightR-4{
         font-size: 13px;
+        letter-spacing: 0;
+
     }
     .footer-rightR-5{
         font-size: 13px;

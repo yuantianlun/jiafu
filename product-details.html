@@ -707,9 +707,9 @@
                 </div>
                 <div class="col-md-6">
                     <div class="canvas_content">
-                        <h2>4轴焊锡机（WB-302R）</h2>
-                        <h3>桌面式焊锡机器人</h3>
-                        <h3>Desktop type soldering Robot</h3>
+                        <h2>桌面式焊锡机器人<apan style="font-size: 12px;letter-spacing: 1px">Desktop type soldering Robot</apan></h2>
+
+                        <h3>4轴焊锡机（WB-302R）</h3>
                         <div class="text">
                             <ul>
                                 <li><span class="bluedesc"></span>产品型号：WB-302R</li>
@@ -1377,7 +1377,7 @@
     };
 
 
-    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+    if (document.documentElement.clientWidth<=1200) {
 
 
 
@@ -1400,7 +1400,7 @@
 
 
         var swiper = new Swiper('.caaa',{
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 30,
             pagination: {
                 el: '.swiper-pagination',
