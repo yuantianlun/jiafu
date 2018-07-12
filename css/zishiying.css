@@ -1,4 +1,7 @@
 @media (max-width: 1680px){
+    .one {
+            overflow-x: scroll;
+        }
     .slide-grid-container {
         height: 660px;
     }
@@ -105,9 +108,7 @@
             display: none;
         }
 
-        .one {
-            overflow-x: scroll;
-        }
+        
 
         .one ul {
             width: 2000px;
